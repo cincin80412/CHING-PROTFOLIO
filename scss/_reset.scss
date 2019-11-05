@@ -1,0 +1,51 @@
+
+*{
+	box-sizing: border-box;
+}
+/*  reset  */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+	margin:0;
+	padding:0;
+}
+.order_table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset, img {
+	border:0;
+}
+img{
+	margin:0px;
+	padding:0px;
+	}
+
+q:before, q:after {
+	content:'';
+}
+abbr, acronym {
+	border:0;
+}
+.ul{
+	list-style:none;
+	}
+.lileft li{
+	float:left;
+	}
+input,button{
+	border:none;
+	outline:none;
+	background: none;
+	}
+button,.cursor{
+	cursor:pointer;
+	font-family: Arial, 微軟正黑體, Helvetica, sans-serif;
+	}
+.user_edit ul,.user_edit ol{
+	padding:0px 0px 0px 20px;
+	}
+a{
+	text-decoration: none;
+}
+
+
+/*================================reset================================*/
