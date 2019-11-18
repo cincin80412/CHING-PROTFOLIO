@@ -1,0 +1,21 @@
+.kv{
+    width: 100vw;
+    height: 100vh;
+    padding: 5% 10%;
+    background: url(../images/both/kv2.png)no-repeat left bottom;
+    
+    .sign{
+        width: 50%;
+    }
+    .content{
+        img{
+            opacity: .2;
+        }
+       .introduce{
+           width: 50%;
+           .line-box{
+               border-left:1px solid #ccc ;
+           }
+       }
+    }
+}

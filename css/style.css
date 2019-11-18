@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+* {
+  font-family: 'Noto Sans TC';
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  font-size: 13px;
+  color: #555;
+  font-family: 'Noto Sans TC',Arial,Helvetica, sans-serif;
+  line-height: 22px;
+  letter-spacing: 1px; }
+
+.wrapper {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  z-index: 1; }
+
+.clearfix:after {
+  /* FF, IE8, O, S, etc. */
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden; }
+
+.clearfix {
+  zoom: 1; }
+
+.clear {
+  clear: both; }
+
+.kv {
+  width: 100vw;
+  height: 100vh;
+  padding: 5% 10%;
+  background: url(../images/both/kv2.png) no-repeat left bottom; }
+  .kv .sign {
+    width: 50%; }
+  .kv .content img {
+    opacity: .2; }
+  .kv .content .introduce {
+    width: 50%; }
+    .kv .content .introduce .line-box {
+      border-left: 1px solid #ccc; }
