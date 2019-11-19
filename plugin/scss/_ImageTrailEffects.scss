@@ -1,0 +1,63 @@
+.introduce {
+	height: 100%;
+	color: var(--color-text);
+	background-color: var(--color-bg);
+}
+
+.demo-5 {
+	--color-text: #ffffff;
+    --color-bg: #485656;
+    --color-link: #000000;
+    --color-link-hover: #ffffff;
+    --color-title: #444c4c;
+    --filter-img: hue-rotate(70deg) contrast(70%);
+}
+
+
+
+.content-box {
+	height: 300px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	isolation: isolate;
+}
+
+.content__title {
+	font-family: forma-djr-display, sans-serif;
+	font-weight: 700;
+	position: relative;
+	z-index: 10000;
+	font-size: 27vw;
+	mix-blend-mode: var(--blendmode-title);
+	-webkit-text-stroke: 2px var(--color-title);
+	text-stroke: 2px var(--color-title);
+	-webkit-text-fill-color: transparent;
+	text-fill-color: transparent;
+	color: transparent;
+	pointer-events: none;
+}
+
+.content__img {
+	max-width: var(--img-maxwidth);
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	will-change: transform;
+	filter: var(--filter-img);
+}
+
+.content__img--full {
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+}
+
+@media screen and (min-width: 53em) {
+	.content-box {
+		height: 100vh;
+		overflow: hidden;
+	}
+}

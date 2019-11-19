@@ -1,4 +1,22 @@
 .kv {
-background: #222;
+    background: #222;
 
+    .codrops-header {
+        color: #ff5d4b;
+        letter-spacing: 2px;
+        font-size: 3.6rem;
+        line-height: 42px;
+        h1 {
+            font-size: 3.6rem;
+
+            .cute-shot {
+                transform: scale(.6);
+            }
+        }
+
+        span {
+            color: #ea6657;
+            opacity: .5;
+        }
+    }
 }
