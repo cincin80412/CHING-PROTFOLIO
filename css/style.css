@@ -38,12 +38,10 @@ body, html {
     letter-spacing: 2px;
     font-size: 3.6rem;
     line-height: 42px; }
-    .kv .codrops-header h1 {
-      font-size: 3.6rem; }
-      .kv .codrops-header h1 .cute-shot {
-        -webkit-transform: scale(0.6);
-        -ms-transform: scale(0.6);
-        transform: scale(0.6); }
+    .kv .codrops-header h1 .cute-shot {
+      -webkit-transform: scale(0.6);
+      -ms-transform: scale(0.6);
+      transform: scale(0.6); }
     .kv .codrops-header span {
       color: #ea6657;
       opacity: .5; }
